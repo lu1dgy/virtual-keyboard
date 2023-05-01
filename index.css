@@ -42,14 +42,6 @@ ul {
   opacity: 0.5;
 }
 
-.key:hover {
-  background-color: rgb(122, 206, 223);
-}
-
-.key_active {
-  background-color: rgb(122, 206, 223);
-}
-
 .keyboard {
   border-radius: 8px;
   display: flex;
@@ -59,4 +51,57 @@ ul {
   width: 880px;
   gap: 3px;
   padding: 20px;
+}
+
+.key[data-code='Backspace'] {
+  width: 100px;
+}
+
+.key[data-code='Tab'] {
+  width: 75px;
+}
+
+.key[data-code='Backslash'] {
+  width: 120px;
+}
+
+.key[data-code='CapsLock'] {
+  width: 100px;
+}
+
+.key_active[data-code='CapsLock'] {
+  background-color: red;
+  color: #fff;
+}
+
+.key[data-code='Enter'] {
+  width: 200px;
+}
+
+.key[data-code='ShiftLeft'] {
+  width: 125px;
+}
+
+.key[data-code='ShiftRight'] {
+  width: 100px;
+}
+
+.key[data-code='ControlLeft'] {
+  width: 75px;
+}
+
+.key[data-code='ControlRight'] {
+  width: 75px;
+}
+
+.key[data-code='Space'] {
+  width: 340px;
+}
+
+.key:hover {
+  background-color: rgb(122, 206, 223);
+}
+
+.key_active {
+  background-color: rgb(122, 206, 223);
 }
