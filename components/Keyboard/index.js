@@ -5,7 +5,7 @@ export default class Keyboard {
   constructor(layout, textarea) {
     this._layout = layout;
     this._textarea = textarea;
-    this._textarea.value = '';
+    this._textarea.value = 'shift + alt(opt) to change lang';
     this._caps = false;
     this._shift = false;
     this.keyboardElements = {};
