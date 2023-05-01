@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  margin: 20px;
+  height: 150px;
+  font-size: 22px;
+  resize: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.key {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyboard {
+  display: flex;
+}
