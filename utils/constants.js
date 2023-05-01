@@ -74,7 +74,7 @@ export const keys = {
     ControlLeft: 'ctrl',
     MetaLeft: 'win',
     AltLeft: 'alt',
-    Space: ' ',
+    Space: 'Space',
     AltRight: 'alt',
     MetaRight: 'win',
     ControlRight: 'ctrl',
@@ -85,7 +85,7 @@ export const keys = {
     ArrowLeft: '˂',
     ArrowRight: '˃',
     ArrowDown: '˅',
-    Enter: '⮠',
+    Enter: 'Enter',
   },
   symbols: {
     ru: {
