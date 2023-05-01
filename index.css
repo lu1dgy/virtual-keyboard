@@ -102,6 +102,11 @@ ul {
   background-color: rgb(122, 206, 223);
 }
 
+.key:active {
+  transform: scale(0.9);
+}
+
 .key_active {
   background-color: rgb(122, 206, 223);
+  transform: scale(0.9);
 }

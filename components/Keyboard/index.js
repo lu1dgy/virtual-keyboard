@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/extensions
 import { laguages, keys } from '../../utils/constants.js';
 
 export default class Keyboard {
