@@ -34,6 +34,8 @@ ul {
   display: flex;
   gap: 5px;
   padding: 8px 8px 0;
+  background-color: opacity;
+  transition: all 0.3s ease;
 }
 
 .key__shifted {
@@ -54,7 +56,7 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: rgb(216, 216, 216);
-  width: 990px;
-  gap: 6px;
-  padding: 10px;
+  width: 880px;
+  gap: 3px;
+  padding: 20px;
 }
