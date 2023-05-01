@@ -29,6 +29,7 @@ export const keyboardLayout = [
   ['BracketRight'],
   ['Backslash'],
   ['CapsLock'],
+  ['KeyA'],
   ['KeyS'],
   ['KeyD'],
   ['KeyF'],
