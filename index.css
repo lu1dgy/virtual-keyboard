@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  margin: 20px;
+  height: 120px;
+  font-size: 22px;
+  resize: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.key {
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  transition: all 0.1s ease;
+  color: #000;
+  cursor: pointer;
+  font-size: 14px;
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  gap: 5px;
+  padding: 8px 8px 0;
+  background-color: opacity;
+  transition: all 0.3s ease;
+}
+
+.key__shifted {
+  opacity: 0.5;
+}
+
+.keyboard {
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(216, 216, 216);
+  width: 880px;
+  gap: 3px;
+  padding: 20px;
+}
+
+.key[data-code='Backspace'] {
+  width: 100px;
+}
+
+.key[data-code='Tab'] {
+  width: 75px;
+}
+
+.key[data-code='Backslash'] {
+  width: 120px;
+}
+
+.key[data-code='CapsLock'] {
+  width: 100px;
+}
+
+.key_active[data-code='CapsLock'] {
+  background-color: red;
+  color: #fff;
+}
+
+.key[data-code='Enter'] {
+  width: 190px;
+}
+
+.key[data-code='ShiftLeft'] {
+  width: 125px;
+}
+
+.key[data-code='ShiftRight'] {
+  width: 100px;
+}
+
+.key[data-code='ControlLeft'] {
+  width: 75px;
+}
+
+.key[data-code='ControlRight'] {
+  width: 75px;
+}
+
+.key[data-code='Space'] {
+  width: 340px;
+}
+
+.key:hover {
+  background-color: rgb(122, 206, 223);
+}
+
+.key:active {
+  transform: scale(0.9);
+}
+
+.key_active {
+  background-color: rgb(122, 206, 223);
+  transform: scale(0.9);
+}
